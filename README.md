@@ -15,6 +15,8 @@ npx tailwindcss -i ./assets/input.css -o ./assets/output.css --watch
 ```
 - 次に、`index.html` を Live Server で開きます
 
+https://github.com/skikatte/html-tailwind-template/assets/74942852/7c97ebcf-9289-4bed-9ba9-cbe1474ff17d
+
 # 注意事項
 - pushする前にもう一度 `npx tailwindcss -i ./assets/input.css -o ./assets/output.css --watch` を実行しましょう
   - 不要な CSS がここで一気に消えることがあります
