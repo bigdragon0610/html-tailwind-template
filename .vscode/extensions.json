@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "mosapride.zenkaku",
+    "streetsidesoftware.code-spell-checker",
+    "ritwickdey.liveserver"
+  ]
+}
