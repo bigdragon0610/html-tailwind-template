@@ -14,6 +14,7 @@ npm install
 npx tailwindcss -i ./assets/input.css -o ./assets/output.css --watch
 ```
 - 次に、`index.html` を Live Server で開きます
+  - http://127.0.0.1:5500/index.html で開かれるはずです
 
 https://github.com/skikatte/html-tailwind-template/assets/74942852/7c97ebcf-9289-4bed-9ba9-cbe1474ff17d
 
