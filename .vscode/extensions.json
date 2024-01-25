@@ -4,6 +4,8 @@
     "esbenp.prettier-vscode",
     "mosapride.zenkaku",
     "streetsidesoftware.code-spell-checker",
-    "ritwickdey.liveserver"
+    "ritwickdey.liveserver",
+    "adrianwilczynski.alpine-js-intellisense",
+    "sperovita.alpinejs-syntax-highlight"
   ]
 }

@@ -5,17 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Tailwind Template</title>
     <link rel="stylesheet" href="./assets/output.css" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.5/dist/cdn.min.js"
+    ></script>
   </head>
   <body>
-    <h1 class="text-xl font-bold p-5 text-blue-500" id="title">
-      Hello, world!
-    </h1>
-    <button
-      class="text-white bg-blue-500 ml-5 p-2 text-lg font-bold rounded-md shadow-md hover:bg-blue-700"
-      id="button"
-    >
-      push!
-    </button>
+    <div x-data="{toggle: true}">
+      <h1
+        :class="'text-xl font-bold p-5 ' + (toggle ? 'text-blue-500' : 'text-red-500')"
+      >
+        Hello, world!
+      </h1>
+      <button
+        :class="'text-white ml-5 p-2 text-lg font-bold rounded-md shadow-md ' + (toggle ? 'bg-blue-500 hover:bg-blue-600' : 'bg-red-500 hover:bg-red-600')"
+        @click="toggle = !toggle"
+      >
+        push!
+      </button>
+    </div>
     <script src="./assets/script.js"></script>
   </body>
 </html>
